@@ -1,0 +1,52 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(212, 45%, 89%);
+
+}
+.cell{
+    font-size:15px;
+    font-family:'Outfit', sans-serif;
+    
+    position: relative;
+    text-align:center;
+    
+    height:425px;
+    width:275px;
+    display: flex;
+
+    border: 15px solid white;
+    border-radius:25px;
+    background-color: white;
+    
+
+    flex-direction: column;
+    margin-top: 80px;
+}   
+
+.pic{
+    border: 6px solid white;
+    border-radius: 15px;
+    height: 55%;
+    
+}
+
+h1{
+    margin:auto;
+    width:85%;
+    height:20%;
+    font-size:17.5px;
+    padding-top:15px;
+
+}
+
+p{
+    height:25%;
+    width:90%;
+    margin:auto;
+    padding-bottom:10px;
+
+
+}
